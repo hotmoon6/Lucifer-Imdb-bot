@@ -244,11 +244,11 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     buttons = [
         [
-            InlineKeyboardButton('⭕️ Support', url='https://t.me/JOSPSupport'),
-            InlineKeyboardButton('Channel ⭕️', url='https://t.me/josprojects/221')
+            InlineKeyboardButton('⭕️ Support', url='https://t.me/arvinxoxo'),
+            InlineKeyboardButton('Myself ⭕️', url='https://t.me/mfsadie_bot')
         ],
         [
-            InlineKeyboardButton('🎬 Series & Movie Club 🎬', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+            InlineKeyboardButton('🎬 MOVIE BOT 🎬', url=f'https://t.me/vecna_mirrorbot')
         ]
         ]
     await client.send_cached_media(
