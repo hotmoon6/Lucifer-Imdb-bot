@@ -39,13 +39,13 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'JOSPSupport')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'arvinxoxo')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<code>{file_name}</code>\n\n<b>Size:</b> {file_size}\n\n<b>Join [Jos Movie Club](https://t.me/+y53tWFUw6Q43NzE9) for more Movies </b>")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<code>{file_name}</code>\n\n<b>Size:</b> {file_size}\n\n<b>🍿 MOVIE BOT [VECNA](https://t.me/vecna_mirrorbot) for more Movies </b>")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>🎬 Title:</b> <a href={url}>{title} ({year}) [{kind}]
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", '''<b>🎬 Title:</b> <a href={url}>{title} ({year}) [{kind}]
 <b>⭐ Rating:</b> <i>{rating}</i>
 <pre>(#EUSERRATINGS)</pre> | <pre>#MARINTG</pre> | <pre>{runtime}</pre> |
 <b>📆 Release Info:</b> #RELEASE_INFO
@@ -57,7 +57,7 @@ IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>🎬 Title:</b> <a href={url}>{
 <b>© IMDb (Series & Movies)</b>
 
 
-⚠️ Powered by <b>Mindflayers Mirror</b>")
+⚠️ Powered by <b>Mindflayers Mirror</b>''')
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
