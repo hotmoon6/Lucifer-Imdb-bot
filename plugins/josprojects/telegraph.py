@@ -52,7 +52,7 @@ async def telegraph(client, message):
         await message.reply(message, text=document)
     else:
         await message.reply(
-            f"<b>Link:-</b>\n\n <code>https://telegra.ph{response[0]}</code>",
+            f"<b>Link:-</b>\n\n <code>https://graph.org{response[0]}</code>",
             quote=True,
             reply_markup=InlineKeyboardMarkup(
             [
