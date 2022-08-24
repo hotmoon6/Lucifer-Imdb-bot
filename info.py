@@ -45,7 +45,7 @@ IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<code>{file_name}</code>\n\n<b>Size:</b> {file_size}\n\n<b>🍿 MOVIE BOT [VECNA](https://t.me/vecna_mirrorbot) for more Movies </b>")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", '''<b>🎬 Title:</b> <a href={url}>{title} ({year})
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", '''<b>🎬 Title:</b> <a href={url}{title} </a> ({year})
 <b>⭐ Rating:</b> <i>{rating}</i>
 <b>💿 Runtime:</b> <pre>{runtime} Minutes</pre> |
 <b>📆 Release Info:</b> {release_date}
