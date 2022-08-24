@@ -42,7 +42,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'arvinxoxo')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<code>{file_name}</code>\n\n<b>Size:</b> {file_size}\n\n{file_caption}\n\n<b>[© TVSeries & Movie Studio](https://t.me/joinchat/prE6ALN6x2hkY2E1)</b>")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<code>{file_name}</code>\n\n<b>Size:</b> {file_size}\n\n{file_caption}\n\n<b>[VECNA BOT](https://t.me/vecna_mirrorbot) for more movies</b>")
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", '''<b>🎬 Title:</b> <a href={url}>{title}</a>
 <b>⭐ Rating:</b> <i>{rating} / 10</i>
 (<code>based on {votes} user ratings.</code>)
